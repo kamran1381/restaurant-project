@@ -1,0 +1,96 @@
+body{
+    background-image: url(image/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* @import url(font/danstevis/danstevis.otf);
+
+@font-face {
+    font-family: dastnevis;
+    src: url(font/danstevis/danstevis.otf);
+} */
+
+
+.form{
+    /* display: block; */
+    text-align: center;
+   position: relative;
+   bottom: -120px;
+
+   /* width: 760px;
+   height:760px:  */
+
+}
+
+.box{
+ border: 1px solid black;
+ position: relative;
+ right:496px;
+font-family: dastnevis;
+  background-color: rgba(1, 1, 22, 0.527);
+ color: #fff;
+ width: 350px ;
+ height:350px ;
+ border: 1px ridge rgb(211, 205, 205);
+ border-radius: 13px;
+ 
+
+}
+
+input[type=text], input[type=password] {
+
+     padding: 1px 2px;
+     margin-bottom: 15px;
+     margin-top:8px;
+     border-radius: 7px 3px 5px 3px;
+   
+     border:0.2px;
+
+}
+
+
+::placeholder{
+    color: #363632;
+}
+
+
+#lol{
+    font-size: 19px;
+}
+
+select{
+    padding: 2.8px;
+    background-color: rgb(236, 226, 211);
+    margin-top: -12px;
+    margin-bottom:5px;
+    position: relative;
+    left: 36px;
+    border-radius: 7px 3px 5px 3px;
+}
+
+
+button{
+    padding:5.1px 11px;
+    margin-bottom: 6px;
+    background-color: rgba(4, 26, 39, 0.884);
+    font-weight: 300px;
+    font-size:13.6px;
+    margin-top:3px ;
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    border-radius: 8px 2.7px 5px 2px;
+
+    
+
+}
+::placeholder{
+    color: rgb(14, 13, 13);
+}
+
+
+input[type="checkbox"]{
+    padding: 2px;
+}
